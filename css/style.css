@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+@font-face {
+    font-family: "Papaya Sunrise";
+    src: url("../fonts/PapayaSunrise-OzdO.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+    margin: auto;
+    width: 80%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+.cabecalho img {
+    height: 5vw;
+    width: 15vw;
+}
+
+.cabecalho nav a {
+    padding-left: 3vw;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    height: 60vw;
+    width: 100%;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    /* background-size: 30vw; */
+}
+
+.blur {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 194, 231, 1));
+}
+
+/* .esquerdo {
+    width: 48%;
+    border: solid 1px blue;
+    height: 70%;
+} */
+
+.direito {
+    margin-top: 6vw;
+    width: 25%;
+    border: solid 1px green;
+    height: 50%;
+    margin-left: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    font-size: 25px;
+    margin: 10px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #24272B;
+    color: #fcfcfc;
+    height: 5vw;
+    padding-top: 1vw;
+}
+
+form {
+    font-size: 25px;
+    width: 80%;
+}
