@@ -1,0 +1,16 @@
+footer p {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #24272B;
+    color: #fcfcfc;
+    height: 5vw;
+    padding-top: 1vw;
+}
+
+form {
+    font-size: 25px;
+    width: 90%;
+}

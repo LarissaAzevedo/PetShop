@@ -1,0 +1,43 @@
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    height: 50vw;
+    width: 100%;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    /* background-size: 30vw; */
+}
+
+.blur {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 194, 231, 1));
+}
+
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6vw;
+    width: 25%;
+    border: solid 3px var(--cinzaclaro);
+    border-radius: 40px;
+    height: 42%;
+    margin-left: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+select, input, button{
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button{
+    background-color:var(--cinzaclaro);
+    /* color: white; */
+    border: none;
+    border-radius: 40px;
+    height: 2.5vw;
+}
+
+form p{
+    margin-top: 20px;
+}
