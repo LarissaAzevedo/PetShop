@@ -1,4 +1,3 @@
-
 /* PÁGINA DE SERVIÇOS */
 
 .conteudo_servicos {
@@ -44,7 +43,10 @@ h2 {
     justify-content: center;
 }
 
+
 /* PÁGINA DE INFORMAÇÕES */
+
+
 /* depois tem que redimencionar elas pra não ficarem tortas */
 
 .informacoes {
@@ -62,6 +64,7 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     /* background-color: indigo; */
+    margin-bottom: 15vw;
 }
 
 .card_info {

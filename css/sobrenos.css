@@ -1,0 +1,37 @@
+.background{
+    border-radius: 100px 0px 0px 100px;
+    background-color: var(--turquesa);
+    background-position: right;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.sobreNos{
+    background-image: url(../img/sobrenos1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 62vh;
+}
+
+.text_sobreNos{
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    padding-right: 35vw;
+    padding-top: 2vw;
+    
+}
+
+.text_sobreNos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+.text_sobreNos p{
+    padding-bottom: 1vw;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+}
