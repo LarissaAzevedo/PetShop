@@ -43,9 +43,7 @@ h2 {
     justify-content: center;
 }
 
-
 /* PÁGINA DE INFORMAÇÕES */
-
 
 /* depois tem que redimencionar elas pra não ficarem tortas */
 
@@ -55,6 +53,10 @@ h2 {
     display: flex;
     justify-content: center;
     /* height: 36vw; */
+    background-image: url('../img/leaves.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
 
 .conteudo_informacoes {
@@ -65,6 +67,7 @@ h2 {
     flex-direction: row;
     /* background-color: indigo; */
     margin-bottom: 15vw;
+    opacity: 1;
 }
 
 .card_info {
@@ -83,7 +86,12 @@ h2 {
 }
 
 .texto_info {
-    display: none;
+    /* display: none; */
+    background-color: #FCFCFC;
+    font-size: .9vw;
+    border: solid 2px #50d8d7;
+    border-radius: 10px;
+    padding-bottom: 0px;
 }
 
 .impar {
@@ -91,11 +99,16 @@ h2 {
     padding-top: 6vw;
 }
 
-.texto_info_abre {
-    padding: 0.5vw;
-    margin-top: 2vw;
-    background-color: #FCFCFC;
+/* .texto_info_abre {
+    /* texto que aparece */
+
+/* padding: 0.5vw;
+    margin-top: 2vw; */
+
+/* background-color: #FCFCFC;
     font-size: .9vw;
     border: solid 2px #50d8d7;
     border-radius: 10px;
-}
+    padding-bottom: 0px; 
+    } 
+*/
