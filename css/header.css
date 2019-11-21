@@ -21,6 +21,7 @@
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
 }
 
 .cabecalho nav a:hover {

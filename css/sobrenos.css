@@ -11,16 +11,15 @@
     background-image: url(../img/sobrenos1.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 62vh;
+    height: 78vh;
 }
 
 .text_sobreNos{
     margin: auto;
-    width: 50%;
+    width: 45%;
     text-align: justify;
     padding-right: 35vw;
     padding-top: 2vw;
-    
 }
 
 .text_sobreNos h1{
@@ -29,9 +28,10 @@
     text-align: center;
     padding-bottom: 1vw;
 }
+
 .text_sobreNos p{
     padding-bottom: 1vw;
     font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 2em;
+    line-height: 1.5em;
 }

@@ -16,7 +16,6 @@ function abreCard(event) {
 
 }
 
-
 // PAG ADOÇÃO
 
 txtImg = document.getElementById("txt1")

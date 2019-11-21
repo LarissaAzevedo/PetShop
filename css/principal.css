@@ -5,7 +5,7 @@
     width: 100%;
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
-    /* background-size: 30vw; */
+    background-size: 70vw;
 }
 
 .blur {
@@ -18,7 +18,7 @@
     width: 25%;
     border: solid 3px var(--cinzaclaro);
     border-radius: 40px;
-    height: 42%;
+    height: 50%;
     margin-left: 65%;
     display: flex;
     justify-content: center;
