@@ -6,3 +6,11 @@
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
+
+.animated{
+    animation-delay: 5s;
+}
+
+.conteudo_servicos{
+    display: none;
+}

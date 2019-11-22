@@ -15,17 +15,14 @@
     <link rel="stylesheet" href="../css/sobrenos.css">
     <link rel="stylesheet" href="../css/adocao.css">
 
-    <!-- FANCYBOX GALERIA -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
 
 </head>
 
 
 <body>
     <header>
-        <div class="cabecalho">
+        <div class="cabecalho menu" id="menu">
             <img src="../img/logo.png" alt="logo da página">
             <nav>
                 <a href="#sobreNos">Sobre nós</a>
@@ -180,7 +177,7 @@
                 <div class="card_info impar">
                     <div class="gato">
                         <a href="#" onclick="abreCardGato(event)"><img src="../img/gato.jpg" alt="Animal"></a>
-                        <div class="texto_info" id="gato" >
+                        <div class="texto_info" id="gato">
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's standard dummy text ever since the 1500s, when an unknown printer
@@ -246,7 +243,7 @@
                 </div>
 
                 <div class="card_info impar">
-                    <a href="#" onclick="abreCardCao()"><img src="../img/cachorro.jpg" alt="Animal"></a>
+                    <a href="#" onclick="abreCardCao(event)"><img src="../img/cachorro.jpg" alt="Animal"></a>
                     <div class="texto_info" id="cao">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -260,7 +257,7 @@
                 </div>
 
                 <div class="card_info">
-                    <a href="#" onclick="abreCardCoelho()"><img src="../img/coelho.jpg" alt="Animal"></a>
+                    <a href="#" onclick="abreCardCoelho(event)"><img src="../img/coelho.jpg" alt="Animal"></a>
                     <div class="texto_info" id="coelho">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -276,41 +273,57 @@
         </section>
         <hr>
 
+ 
         <section id="adocao">
-            <h1>MURAL DA ADOÇÃO</h1>
-            <div class="adocao">
-                <a data-fancybox="gallery" href="../img/adocao/img2.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img2.jpg"></a>
-                <a data-fancybox="gallery" href="../img/adocao/img4.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img4.jpg"></a>
-                <a data-fancybox="gallery" href="../img/adocao/img1.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img1.jpg"></a>
-                <a data-fancybox="gallery" href="../img/adocao/img5.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img5.jpg"></a>
-                <a data-fancybox="gallery" href="../img/adocao/img1.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img1.jpg"></a>
-                <a data-fancybox="gallery" href="../img/adocao/img2.jpg" onmouseover="hover()"
-                    onmouseout="removeHover()"><img src="../img/adocao/img2.jpg"></a>
-            </div>
-            <div class="cardAdocao">
-                <div class="text_img1" id="txt1">
-                    <h3>Bolinha</h3>
-                    <p>Tenho 2 aninhos, sou dócil e carinhosa</p>
-                    <p>Sou castrada e já venho vacinada
-                        <3</p> </div> <div class="text_img1" id="txt2">
-                            <h3>Bolinha</h3>
-                            <p>Tenho 2 aninhos, sou dócil e carinhosa</p>
-                            <p>Sou castrada e já venho vacinada
-                                <3</p> </div> <div class="text_img1" id="txt3">
-                                    <h3>Bolinha</h3>
-                                    <p>Tenho 2 aninhos, sou dócil e carinhosa</p>
-                                    <p>Sou castrada e já venho vacinada
-                                        <3</p> </div> </div> </section> </main> <footer>
-                                            <p>Obrigada pela visita, volte mais vezes!</p>
-                                            <p>Escola SENAI de informática - Todos os direitos reservados</p>
-                                            </footer>
-
-</body>
-<script src="../js/javascript.js"></script>
-
-</html>
+                <h1>MURAL DA ADOÇÃO</h1>
+                <!-- GALERIA DE FOTOS -->
+                <div class="wrapper">
+                    <div class="media">
+                        <div class="layer">
+                            <p>Bolinha</p>
+                        </div>
+                        <img src="../img/adocao/img2.jpg" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                            <p>Paçoca</p>
+                        </div>
+                        <img src="../img/adocao/img1.jpg" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                            <p>Rex</p>
+                        </div>
+                        <img src="../img/adocao/img3.jpg" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                            <p>Marie</p>
+                        </div>
+                        <img src="../img/adocao/img4.jpg" alt="" />
+                    </div>
+                    <div class="media">
+                        <div class="layer">
+                            <p>João</p>
+                        </div>
+                        <a href="../img/adocao/img5.jpg" data-lightbox="image-1" data-title="João">
+                            <img src="../img/adocao/img5.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+    
+            <footer>
+                <p>Obrigada pela visita, volte mais vezes!</p>
+                <p>Escola SENAI de informática - Todos os direitos reservados</p>
+            </footer>
+    
+    
+    </body>
+    
+    <!-- GALERIA -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="../js/lightbox2-2.11.1/dist/lightbox.js"></script>
+    <script src="../js/javascript.js"></script>
+    

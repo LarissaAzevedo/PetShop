@@ -198,3 +198,43 @@ function hover() {
 function removeHover() {
     txtImg.classList.add('text_img1')
 }
+
+//MENU
+
+menu = document.getElementById('menu')
+window.onscroll = function(){
+    scrollMenu()
+    scrollsobreNos()
+    scrollServicos()
+}
+
+function scrollMenu(){
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop >30){
+        menu.classList.add("menu_scroll")
+    } else {
+        menu.classList.remove("menu_scroll")
+    }
+}
+
+//SOBRE NOS
+
+sobreNos = document.getElementById('sobreNos')
+
+servicos = document.getElementById('servicos')
+
+// window.onscroll = function(){
+    
+// }
+
+function scrollsobreNos(){
+    if (document.body.scrollTop > 100|| document.documentElement.scrollTop >100){
+        sobreNos.classList.add('animated', 'fadeInRight')
+    }
+}
+
+function scrollServicos(){
+    if (document.body.scrollTop >1000|| document.documentElement.scrollTop >1000){
+        servicos.classList.remove('conteudo_servicos')
+        servicos.classList.add('animated', 'bounceIn')
+    }
+}

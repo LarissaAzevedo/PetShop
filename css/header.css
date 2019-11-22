@@ -2,18 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vw;
     margin: auto;
     width: 80%;
+    height: 5vw;
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
+    padding-left: 5vw;
+    z-index:10;
 }
 
 .cabecalho img {
     height: 5vw;
     width: 15vw;
+}
+
+nav{
+    padding-right: 15vw;
 }
 
 .cabecalho nav a {
@@ -22,8 +28,19 @@
     color: black;
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
+    
 }
 
 .cabecalho nav a:hover {
     background-color: aliceblue;
+}
+
+.menu{
+    margin: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.menu_scroll{
+    background-color: var(--branco);
 }
